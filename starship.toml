@@ -1,0 +1,20 @@
+#format = """
+#$directory
+#$character
+#$package
+#"""
+
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[akbar](bold green) [ ](white)[aspire ](bold yellow)'
+error_symbol = '[akbar](bold red) [ ](white)[aspire ](bold red)'
+vicmd_symbol = '[akbar](bold purple) [ ](white)[aspire ](bold purple)'
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+#[line_break]
+#disabled = true
+
+[directory]
+style = "bold fg:#ffd700"
